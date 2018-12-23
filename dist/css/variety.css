@@ -128,7 +128,7 @@
   padding-right: 5px;
 }
 .variety_warp .variety_header .nav_bar .container .nav > .nav_login_register > a:hover {
-  color: white;
+  color: #F4B02B;
 }
 .variety_warp .variety_header .nav_bar .container .nav > .nav_login_register .login {
   float: left;
@@ -357,18 +357,18 @@
           justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #F4B02B;
+  color: #AA6900;
 }
 .variety_warp .footer .footer_main .container > div {
   font-size: 14px;
   line-height: 24px;
 }
 .variety_warp .footer .footer_main .container > div > a {
-  color: #F4B02B;
+  color: #AA6900;
   white-space: nowrap;
 }
 .variety_warp .footer .footer_main .container > div > a:hover {
-  color: white;
+  color: #F4B02B;
 }
 .variety_warp .footer .footer_main .container .footer_logo > a {
   width: 114px;
