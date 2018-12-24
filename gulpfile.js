@@ -17,9 +17,9 @@ const connect = require('gulp-connect');//热加载库
 // 神来之笔：其他(上面)的插件不用再引入了
 const $ = require('gulp-load-plugins')(); // !!!引入的插件是个方法，必须记住调用
 // less编译自动添加前缀
-const LessAutoprefix = require('less-plugin-autoprefix');
+const LessAutoPrefix = require('less-plugin-autoprefix');
 // 前缀兼容最新两个版本的浏览器
-const autoprefix = new LessAutoprefix({browsers: ['last 2 versions']});
+const autoPrefix = new LessAutoPrefix({browsers: ['last 2 versions']});
 // 自动打开网页
 const open = require('open');
 
@@ -43,7 +43,7 @@ gulp.task('minifyjs', function () {
 gulp.task('minifycss', function () {
     return gulp.src('src/less/*.less')
         .pipe($.less({  // 将less文件编译成css文件
-            plugins: [autoprefix]  // 增加前缀
+            plugins: [autoPrefix]  // 增加前缀
         }))
         // .pipe(gulp.dest('build/css'))
         // .pipe($.concat('built.css')) // 合并css

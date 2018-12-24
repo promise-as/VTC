@@ -206,7 +206,7 @@
   /*服务*/
   .serve {
     background-color: #F0F2F7;
-    .container{
+    .container {
       padding-top: 150px;
       padding-bottom: 150px;
       //border: 1px solid #000;
@@ -368,125 +368,132 @@
     //border: 1px solid #000;
     .advantage_content {
       width: 62.5%;
-      height: 365px;
+      //height: 365px;
       //border: 1px solid red;
-      padding: 55px 115px;
+      padding: 45px 115px;
       box-sizing: border-box;
       background: rgba(255, 230, 181, 0.5);
       border-radius: 8px;
       background: url("../images/img/img_adv.png") no-repeat;
-      //margin-top: 96px;
-      //margin-bottom: 96px;
       color: #F4B02B;
-      .detail_title {
-        > h3 {
-          font-size: 32px;
-          font-weight: bold;
-          margin-bottom: 10px;
+      .content_detail {
+        //border: 1px solid #000;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 8px;
+        padding: 30px;
+        .detail_title {
+          //padding-left: 15px;
+          > h3 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+          }
+          > p {
+            font-size: 19px;
+          }
         }
-        > p {
-          font-size: 19px;
+        .detail_grid {
+          //padding-left: 15px;
+          margin-top: 30px;
+          //border: 1px solid green;
+          display: grid; // 格子布局
+          grid-template-columns: repeat(5, 1fr);
+          grid-column-gap: 55px; // 列与列之间空隙
+          grid-row-gap: 28px; // 行与行之间空隙
+          .grid_item {
+            .item_detail {
+              //border: 1px solid blue;
+              display: flex;
+              //justify-content: space-between;
+              .detail_icon {
+                display: block;
+                width: 18px;
+                height: 18px;
+                text-indent: -9999px;
+                margin-top: 3px;
+              }
+              .detail_text {
+                font-size: 19px;
+                line-height: 22px;
+                white-space: nowrap;
+                letter-spacing: 2px;
+                padding-left: 10px;
+              }
+            }
+            &:nth-child(1) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_1.png") no-repeat;
+              }
+            }
+            &:nth-child(2) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_2.png") no-repeat;
+              }
+            }
+            &:nth-child(3) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_3.png") no-repeat;
+              }
+            }
+            &:nth-child(4) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_4.png") no-repeat;
+              }
+            }
+            &:nth-child(5) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_5.png") no-repeat;
+              }
+            }
+            &:nth-child(6) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_6.png") no-repeat;
+              }
+            }
+            &:nth-child(7) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_7.png") no-repeat;
+              }
+            }
+            &:nth-child(8) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_8.png") no-repeat;
+              }
+            }
+            &:nth-child(9) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_9.png") no-repeat;
+              }
+            }
+            &:nth-child(10) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_10.png") no-repeat;
+              }
+            }
+            &:nth-child(11) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_11.png") no-repeat;
+              }
+            }
+            &:nth-child(12) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_12.png") no-repeat;
+              }
+            }
+            &:nth-child(13) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_13.png") no-repeat;
+              }
+            }
+            &:nth-child(14) {
+              .detail_icon {
+                background: url("../images/icon/icon_advantage_14.png") no-repeat;
+              }
+            }
+          }
         }
       }
-      .content_grid {
-        margin-top: 45px;
-        //border: 1px solid green;
-        display: grid; // 格子布局
-        grid-template-columns: repeat(5, 1fr);
-        grid-column-gap: 60px; // 列与列之间空隙
-        grid-row-gap: 40px; // 行与行之间空隙
-        .grid_item {
-          .item_detail {
-            //border: 1px solid blue;
-            display: flex;
-            //justify-content: space-between;
-            .detail_icon {
-              display: block;
-              width: 18px;
-              height: 18px;
-              text-indent: -9999px;
-              margin-top: 3px;
-            }
-            .detail_text {
-              font-size: 19px;
-              line-height: 22px;
-              white-space: nowrap;
-              letter-spacing: 2px;
-              padding-left: 10px;
-            }
-          }
-          &:nth-child(1) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_1.png") no-repeat;
-            }
-          }
-          &:nth-child(2) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_2.png") no-repeat;
-            }
-          }
-          &:nth-child(3) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_3.png") no-repeat;
-            }
-          }
-          &:nth-child(4) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_4.png") no-repeat;
-            }
-          }
-          &:nth-child(5) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_5.png") no-repeat;
-            }
-          }
-          &:nth-child(6) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_6.png") no-repeat;
-            }
-          }
-          &:nth-child(7) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_7.png") no-repeat;
-            }
-          }
-          &:nth-child(8) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_8.png") no-repeat;
-            }
-          }
-          &:nth-child(9) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_9.png") no-repeat;
-            }
-          }
-          &:nth-child(10) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_10.png") no-repeat;
-            }
-          }
-          &:nth-child(11) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_11.png") no-repeat;
-            }
-          }
-          &:nth-child(12) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_12.png") no-repeat;
-            }
-          }
-          &:nth-child(13) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_13.png") no-repeat;
-            }
-          }
-          &:nth-child(14) {
-            .detail_icon {
-              background: url("../images/icon/icon_advantage_14.png") no-repeat;
-            }
-          }
-        }
-      }
+
     }
   }
   /*注册*/
@@ -629,12 +636,16 @@
 // 屏幕是1368-1440
 @media screen and (min-device-width: 1368px) and (max-device-width: 1440px) {
   .about_warp {
-    .about_advantage{
+    .about_advantage {
       .advantage_content {
-        //border: 1px solid #000;
-        padding: 55px 10px;
-        .content_grid {
-          grid-column-gap: 46px; // 列与列之间空隙
+        //border: 1px solid red;
+        padding: 20px;
+        .content_detail{
+          //border: 1px solid #000;
+          padding: 30px 10px;
+          .detail_grid {
+            grid-column-gap: 35px; // 列与列之间空隙
+          }
         }
       }
     }
@@ -652,10 +663,12 @@
     //border: 1px solid #000;
     .advantage_content {
       //border: 1px solid #000;
-      padding: 55px 10px;
-      .content_grid {
-        grid-column-gap: 36px; // 列与列之间空隙
-        grid-row-gap: 40px; // 行与行之间空隙
+      padding: 20px 10px;
+      .content_detail{
+        .detail_grid{
+          grid-column-gap: 20px; // 列与列之间空隙
+          grid-row-gap: 40px; // 行与行之间空隙
+        }
       }
     }
   }

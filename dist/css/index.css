@@ -408,6 +408,7 @@ body {
 }
 .home_warp .home_deal .container .deal_flex .flex_item .item_content > p {
   font-size: 14px;
+  color: #585858;
   line-height: 24px;
 }
 .home_warp .home_deal .container .deal_flex .flex_item:nth-child(2) .item_img {

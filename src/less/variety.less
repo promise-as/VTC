@@ -293,11 +293,14 @@
           .item_content{
             flex: 1;
             .content_detail{
+              height: 330px;
               //border: 1px solid red;
-              margin-top: 80px;
-              margin-right: 100px;
-              margin-left: 100px;
+              margin: 80px 100px 60px 100px;
               color: #F4B02B;
+              display: flex;
+              flex-flow: column nowrap;
+              justify-content: space-between;
+
               > h3{
                 font-size: 24px;
                 font-weight: bold;
@@ -312,6 +315,9 @@
                 font-size: 14px;
                 color: #585858;
                 line-height: 24px;
+                text-align: left;
+                //border: 1px solid red;
+                margin-top: -60px;
               }
               .detail_more{
                 display: block;
@@ -319,13 +325,15 @@
                 height:50px;
                 border: 1px solid #F4B02B;
                 border-radius:25px;
-                margin-top: 54px;
-                margin-bottom: 54px;
+                //margin-top: 54px;
+                //margin-bottom: 54px;
                 text-align: center;
                 line-height: 50px;
                 color: #F4B02B;
                 cursor: pointer;
                 //margin-left: auto;
+                //position: relative;
+                //bottom: 0;
                 &:hover{
                   background-color: #F4B02B;
                   color: white;
@@ -371,7 +379,7 @@
             .item_content{
               .content_detail{
                 .detail_more{
-                  margin-top: 78px;
+                  //margin-top: 78px;
                 }
               }
             }

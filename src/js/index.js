@@ -1,5 +1,5 @@
 // 头部右侧导航
-let navList = document.querySelectorAll('.nav > a');
+// let navList = document.querySelectorAll('.nav > a');
 
 // 客户帮助 和 文章详情的 tab
 let helpList = document.querySelectorAll('.tab_header > .header_item');
