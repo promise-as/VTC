@@ -5,24 +5,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-/*自定义滚动条*/
-.metal_warp {
-  position: relative;
-  height: 100%;
-  overflow-y: auto;
-  z-index: 300;
-  /*定义滚动条轨道 内阴影+圆角*/
-  /*定义滑块 内阴影+圆角*/
-}
-.metal_warp::-webkit-scrollbar {
-  width: 16px;
-}
-.metal_warp::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
-}
-.metal_warp::-webkit-scrollbar-thumb {
-  background-color: #999999;
-}
 /*金属合约*/
 .metal_warp {
   /*头部*/

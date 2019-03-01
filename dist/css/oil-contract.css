@@ -5,24 +5,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-/*自定义滚动条*/
-.oil_warp {
-  position: relative;
-  height: 100%;
-  overflow-y: auto;
-  z-index: 300;
-  /*定义滚动条轨道 内阴影+圆角*/
-  /*定义滑块 内阴影+圆角*/
-}
-.oil_warp::-webkit-scrollbar {
-  width: 16px;
-}
-.oil_warp::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
-}
-.oil_warp::-webkit-scrollbar-thumb {
-  background-color: #999999;
-}
 /*原油合约*/
 .oil_warp {
   /*头部*/
@@ -233,9 +215,6 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-}
-.oil_warp .oil_main .container .main_card .main_product .product_tab .product_column:last-child .product_name {
-  border-right: 1px solid #0E48B4;
 }
 .oil_warp .oil_main .container .main_card .main_product .product_tab .product_column:last-child .product_time {
   height: 121px;

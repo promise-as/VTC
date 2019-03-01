@@ -8,28 +8,6 @@
   //border: 1px solid pink;
 }
 
-/*自定义滚动条*/
-.oil_warp{
-  position: relative;
-  height: 100%;
-  overflow-y: auto;
-  z-index: 300;
-  &::-webkit-scrollbar {
-    width: 16px;
-    //z-index: 300;
-  }
-  /*定义滚动条轨道 内阴影+圆角*/
-  &::-webkit-scrollbar-track
-  {
-    background-color: #f1f1f1;
-  }
-  /*定义滑块 内阴影+圆角*/
-  &::-webkit-scrollbar-thumb
-  {
-    background-color: #999999;
-  }
-}
-
 /*原油合约*/
 .oil_warp{
   /*头部*/
@@ -241,7 +219,7 @@
               &:last-child{
                 flex: 1;
                 .product_name{
-                  border-right: 1px solid #0E48B4;
+                  //border-right: 1px solid #0E48B4;
                 }
                 .product_time{
                   height: 121px;
